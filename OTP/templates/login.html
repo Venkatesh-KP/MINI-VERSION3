@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Login</title>
+</head>
+<body>
+    <h2>Login with OTP</h2>
+    <button onclick="sendOTP()">Send OTP</button>
+
+    <form action="/verify_otp" method="POST">
+        <input type="text" name="otp" placeholder="Enter OTP" required>
+        <button type="submit">Verify OTP</button>
+    </form>
+
+    <script>
+        function sendOTP() {
+            fetch('/send_otp', { method: 'POST' })
+                .then(response => response.text())
+                .then(alert);
+        }
+    </script>
+</body>
+</html>

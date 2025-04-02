@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info Chatbot</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .chat-box {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #chat-log {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Information Chatbot</h1>
+        <div class="chat-box">
+            <div id="chat-log">
+                <!-- Chat messages will appear here -->
+            </div>
+
+            <label for="search-type">Select Search Type:</label>
+            <select id="search-type">
+                <option value="name">Name</option>
+                <option value="roll_no">Roll Number</option>
+            </select>
+
+            <label for="query-input">Enter Query:</label>
+            <input type="text" id="query-input" placeholder="Enter name or roll number...">
+
+            <button id="send-btn">Get Details</button>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Function to append messages to the chat log
+            function appendMessage(sender, message) {
+                $('#chat-log').append('<div><strong>' + sender + ':</strong> ' + message + '</div>');
+                $('#chat-log').scrollTop($('#chat-log')[0].scrollHeight); // Auto scroll to the bottom
+            }
+
+            // Handle the click event for the "Get Details" button
+            $('#send-btn').click(function () {
+                const queryInput = $('#query-input').val().trim();
+                const searchType = $('#search-type').val();
+
+                // Check if input is empty
+                if (!queryInput) {
+                    alert("Please enter a name or roll number.");
+                    return;
+                }
+
+                // Append user query to chat log
+                const userQuery = searchType === 'roll_no' ? `Roll No: ${queryInput}` : `Name: ${queryInput}`;
+                appendMessage('You', userQuery);
+
+                // Clear input field
+                $('#query-input').val('');
+
+                // Prepare the user query string
+                const userQueryString = searchType === 'roll_no' ? 
+                    `details for roll no ${queryInput}` : 
+                    `details for ${queryInput}`;
+
+                // Send the query to the Flask backend
+                $.ajax({
+                    type: 'POST',
+                    url: '/search',  // Assumes your Flask app has a route '/search'
+                    data: { user_query: userQueryString },
+                    success: function (data) {
+                        appendMessage('Bot', JSON.stringify(data)); // Append the bot's response
+                    },
+                    error: function (xhr) {
+                        const errorMessage = xhr.responseJSON ? xhr.responseJSON : "Sorry, an error occurred.";
+                        appendMessage('Bot', errorMessage); // Append error message from the bot
+                    }
+                });
+            });
+
+            // Allow pressing 'Enter' to trigger the search
+            $('#query-input').keypress(function (e) {
+                if (e.which === 13) {
+                    $('#send-btn').click();
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

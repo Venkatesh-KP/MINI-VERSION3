@@ -1,0 +1,51 @@
+id,first_name,last_name,email,gender,ip_address,EMI's number,roll number,password,address,mark details,parent_name,parent's occupation,contact_details
+1,Barbabas,Pollitt,bpollitt0@thetimes.co.uk,Male,70.249.105.159,8,1,Barbabas,8 Ridge Oak Center,error: undefined method `id' for nil:NilClass,Barbabas Pollitt,Administrative Officer,995-306-7199
+2,Carolyn,Gummery,cgummery1@telegraph.co.uk,Female,182.254.249.116,5,2,Carolyn,03685 Gateway Road,error: undefined method `id' for nil:NilClass,Carolyn Gummery,Community Outreach Specialist,588-946-0734
+3,Duky,Harrold,dharrold2@cdc.gov,Male,175.220.179.182,7,3,Duky,1 Spenser Parkway,error: undefined method `id' for nil:NilClass,Duky Harrold,Legal Assistant,648-635-8217
+4,Maris,Di Giorgio,mdi3@smugmug.com,Female,65.14.188.85,3,4,Maris,3771 Anthes Hill,error: undefined method `id' for nil:NilClass,Maris Di Giorgio,Office Assistant III,393-179-1816
+5,Ysabel,Morfey,ymorfey4@nyu.edu,Genderfluid,191.152.206.216,6,5,Ysabel,6 Goodland Parkway,error: undefined method `id' for nil:NilClass,Ysabel Morfey,VP Accounting,504-547-6436
+6,Si,Sirrell,ssirrell5@cpanel.net,Male,9.168.157.146,5,6,Si,4 Stone Corner Drive,error: undefined method `id' for nil:NilClass,Si Sirrell,Environmental Tech,243-849-4330
+7,Alexandra,Lindell,alindell6@cafepress.com,Female,243.49.91.208,8,7,Alexandra,4 Delaware Point,error: undefined method `id' for nil:NilClass,Alexandra Lindell,Geologist IV,770-908-7223
+8,Marrilee,Spensley,mspensley7@loc.gov,Female,28.182.31.212,1,8,Marrilee,6 West Parkway,error: undefined method `id' for nil:NilClass,Marrilee Spensley,Human Resources Assistant I,621-836-5380
+9,Demetris,Haggerston,dhaggerston8@google.it,Female,88.29.30.58,5,9,Demetris,12 Dunning Crossing,error: undefined method `id' for nil:NilClass,Demetris Haggerston,Administrative Assistant IV,845-909-5161
+10,Dani,Questier,dquestier9@nsw.gov.au,Male,186.73.130.96,9,10,Dani,384 Bellgrove Park,error: undefined method `id' for nil:NilClass,Dani Questier,Staff Accountant III,743-706-9082
+11,Stacey,Kamienski,skamienskia@squarespace.com,Female,222.214.104.242,5,11,Stacey,211 Porter Center,error: undefined method `id' for nil:NilClass,Stacey Kamienski,VP Accounting,774-725-2461
+12,Grethel,Whightman,gwhightmanb@businessinsider.com,Female,84.77.6.221,4,12,Grethel,68228 Clemons Circle,error: undefined method `id' for nil:NilClass,Grethel Whightman,Technical Writer,562-828-4243
+13,Boyce,Branno,bbrannoc@vk.com,Male,112.41.98.80,4,13,Boyce,3 Sutteridge Alley,error: undefined method `id' for nil:NilClass,Boyce Branno,Administrative Assistant III,455-424-6360
+14,Crista,Godbald,cgodbaldd@ask.com,Female,219.26.56.201,2,14,Crista,64 Transport Parkway,error: undefined method `id' for nil:NilClass,Crista Godbald,Professor,358-823-5389
+15,Millicent,Papierz,mpapierze@vinaora.com,Female,62.211.95.45,8,15,Millicent,5248 Iowa Lane,error: undefined method `id' for nil:NilClass,Millicent Papierz,Dental Hygienist,854-152-5992
+16,Loydie,Mahony,lmahonyf@mac.com,Male,142.14.36.189,9,16,Loydie,6 Crescent Oaks Avenue,error: undefined method `id' for nil:NilClass,Loydie Mahony,Director of Sales,469-753-0566
+17,Cyril,Critchell,ccritchellg@flickr.com,Male,136.253.167.75,3,17,Cyril,83831 Coleman Park,error: undefined method `id' for nil:NilClass,Cyril Critchell,Assistant Manager,394-677-6312
+18,Darrell,Clitsome,dclitsomeh@umn.edu,Male,231.35.78.151,4,18,Darrell,781 Sommers Avenue,error: undefined method `id' for nil:NilClass,Darrell Clitsome,Senior Financial Analyst,689-126-4911
+19,Odella,Fice,oficei@ebay.com,Non-binary,105.130.56.244,6,19,Odella,9056 Gina Road,error: undefined method `id' for nil:NilClass,Odella Fice,Executive Secretary,360-297-9870
+20,Norrie,Vockings,nvockingsj@hexun.com,Male,173.33.10.179,9,20,Norrie,06284 Birchwood Parkway,error: undefined method `id' for nil:NilClass,Norrie Vockings,Librarian,437-304-6732
+21,Reinhold,Kyneton,rkynetonk@virginia.edu,Non-binary,47.169.151.196,7,21,Reinhold,0 Bellgrove Drive,error: undefined method `id' for nil:NilClass,Reinhold Kyneton,Financial Advisor,227-951-4052
+22,Allina,Mulvagh,amulvaghl@cmu.edu,Female,219.179.204.135,8,22,Allina,022 Golf Course Center,error: undefined method `id' for nil:NilClass,Allina Mulvagh,Desktop Support Technician,635-322-6640
+23,Carl,Bayle,cbaylem@earthlink.net,Male,117.109.0.62,10,23,Carl,717 Pearson Alley,error: undefined method `id' for nil:NilClass,Carl Bayle,Senior Quality Engineer,981-767-8642
+24,Romola,Crothers,rcrothersn@redcross.org,Female,44.107.251.16,7,24,Romola,13 Pond Terrace,error: undefined method `id' for nil:NilClass,Romola Crothers,Web Designer IV,739-481-9321
+25,Brew,Thumnel,bthumnelo@tiny.cc,Male,179.249.239.207,1,25,Brew,611 Sachtjen Park,error: undefined method `id' for nil:NilClass,Brew Thumnel,Programmer II,943-805-2037
+26,Findlay,Beecheno,fbeechenop@biblegateway.com,Male,179.21.254.53,3,26,Findlay,5 Duke Place,error: undefined method `id' for nil:NilClass,Findlay Beecheno,Geological Engineer,468-695-3294
+27,Silvie,Aleksandrov,saleksandrovq@webmd.com,Female,137.146.87.35,9,27,Silvie,81378 Macpherson Drive,error: undefined method `id' for nil:NilClass,Silvie Aleksandrov,Marketing Assistant,728-214-4210
+28,Binny,Livesay,blivesayr@privacy.gov.au,Female,125.110.110.77,10,28,Binny,026 Grasskamp Plaza,error: undefined method `id' for nil:NilClass,Binny Livesay,Associate Professor,990-969-2826
+29,Regan,Shackell,rshackells@weather.com,Female,222.127.3.88,3,29,Regan,7 Kensington Trail,error: undefined method `id' for nil:NilClass,Regan Shackell,Administrative Officer,296-795-0832
+30,Claiborn,Leivers,cleiverst@senate.gov,Male,99.1.168.92,8,30,Claiborn,85965 Mockingbird Avenue,error: undefined method `id' for nil:NilClass,Claiborn Leivers,Payment Adjustment Coordinator,329-707-8820
+31,Gerek,Wedlake,gwedlakeu@businessinsider.com,Male,173.250.3.147,8,31,Gerek,1 Green Parkway,error: undefined method `id' for nil:NilClass,Gerek Wedlake,Design Engineer,501-258-7348
+32,Marylynne,Askie,maskiev@tmall.com,Female,76.194.135.66,6,32,Marylynne,2812 Mitchell Circle,error: undefined method `id' for nil:NilClass,Marylynne Askie,Engineer IV,572-511-3104
+33,Lori,Burlingame,lburlingamew@stumbleupon.com,Female,114.69.193.109,7,33,Lori,53924 Maywood Point,error: undefined method `id' for nil:NilClass,Lori Burlingame,Accounting Assistant IV,405-118-7971
+34,Allen,Klossmann,aklossmannx@mtv.com,Male,29.23.68.39,1,34,Allen,6 Vera Avenue,error: undefined method `id' for nil:NilClass,Allen Klossmann,VP Marketing,285-973-8220
+35,Heall,Lewcock,hlewcocky@reddit.com,Male,246.236.166.8,4,35,Heall,6 Judy Terrace,error: undefined method `id' for nil:NilClass,Heall Lewcock,Chemical Engineer,539-522-7199
+36,Brigit,Gratrix,bgratrixz@microsoft.com,Female,34.199.177.205,9,36,Brigit,08948 Debs Avenue,error: undefined method `id' for nil:NilClass,Brigit Gratrix,Environmental Tech,281-513-2800
+37,Zelma,Benwell,zbenwell10@marriott.com,Female,0.218.109.23,3,37,Zelma,293 Sugar Hill,error: undefined method `id' for nil:NilClass,Zelma Benwell,Systems Administrator I,472-119-2968
+38,Clerkclaude,Morillas,cmorillas11@cnbc.com,Male,0.207.9.2,6,38,Clerkclaude,0 Fisk Drive,error: undefined method `id' for nil:NilClass,Clerkclaude Morillas,Account Coordinator,899-816-0649
+39,Gerhardine,Duck,gduck12@behance.net,Female,53.178.203.146,7,39,Gerhardine,2032 Killdeer Street,error: undefined method `id' for nil:NilClass,Gerhardine Duck,Project Manager,602-844-8432
+40,Willi,Kubasiewicz,wkubasiewicz13@disqus.com,Agender,142.20.165.92,2,40,Willi,7 Fisk Road,error: undefined method `id' for nil:NilClass,Willi Kubasiewicz,Food Chemist,817-498-4467
+41,Carena,Mintoff,cmintoff14@imgur.com,Female,152.71.245.2,6,41,Carena,5462 Reindahl Terrace,error: undefined method `id' for nil:NilClass,Carena Mintoff,Civil Engineer,854-331-1571
+42,Susan,Sein,ssein15@meetup.com,Agender,218.218.215.164,6,42,Susan,59623 Kim Circle,error: undefined method `id' for nil:NilClass,Susan Sein,Teacher,405-106-5941
+43,Auberta,Beetham,abeetham16@mashable.com,Female,51.160.189.168,7,43,Auberta,407 Oneill Crossing,error: undefined method `id' for nil:NilClass,Auberta Beetham,Senior Developer,148-920-6661
+44,Ferdinande,Bottle,fbottle17@bravesites.com,Female,63.80.126.104,7,44,Ferdinande,4 Stuart Terrace,error: undefined method `id' for nil:NilClass,Ferdinande Bottle,Safety Technician III,925-639-2781
+45,Karlan,Brisse,kbrisse18@sciencedirect.com,Male,207.16.210.152,9,45,Karlan,06588 Donald Drive,error: undefined method `id' for nil:NilClass,Karlan Brisse,Product Engineer,848-723-0509
+46,Joe,Mignot,jmignot19@wisc.edu,Genderqueer,9.41.34.66,10,46,Joe,5 Hudson Way,error: undefined method `id' for nil:NilClass,Joe Mignot,Statistician II,304-935-0069
+47,Alfie,Hebson,ahebson1a@cargocollective.com,Male,193.148.71.127,3,47,Alfie,74119 Prentice Hill,error: undefined method `id' for nil:NilClass,Alfie Hebson,Sales Associate,687-623-5992
+48,Natal,Sikorsky,nsikorsky1b@ning.com,Male,227.126.74.64,6,48,Natal,370 Melody Drive,error: undefined method `id' for nil:NilClass,Natal Sikorsky,Chief Design Engineer,922-702-9912
+49,Saleem,Pardi,spardi1c@mozilla.org,Male,124.102.50.240,2,49,Saleem,6 Bowman Pass,error: undefined method `id' for nil:NilClass,Saleem Pardi,Internal Auditor,218-334-5813
+50,Viva,Cuthbert,vcuthbert1d@slate.com,Female,33.50.145.52,4,50,Viva,9 Rowland Court,error: undefined method `id' for nil:NilClass,Viva Cuthbert,Marketing Assistant,231-404-6680
